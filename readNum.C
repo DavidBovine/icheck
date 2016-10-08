@@ -5,7 +5,7 @@
 
 using namespace std;
 
-double readDouble(string prompt)
+double readDouble(string prompt) //we'll add a read function to read the input as a string first, hopefull adding scientific functionality
 {
 	double rv=0.0;
 	bool done=false;
